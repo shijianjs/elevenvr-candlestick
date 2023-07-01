@@ -1,5 +1,9 @@
 # Eleven table tennis vr k线图
 
+## 安装
+1. 安装油猴插件
+2. 点击安装此脚本：[elevenvr-candlestick.user.js](https://github.com/shijianjs/elevenvr-candlestick/raw/master/dist/elevenvr-candlestick.user.js)
+
 ## 技术
 
 [vite-plugin-monkey](https://github.com/lisonge/vite-plugin-monkey/blob/main/README_zh.md)

@@ -36,7 +36,7 @@ class EloHistoryItem {
     type = ""
 
     constructor(prop: Partial<EloHistoryItem>) {
-        extend(this, prop)
+        _.extend(this, prop)
     }
 
     get date() {
@@ -65,7 +65,7 @@ class EchartsDataItem {
     volume = 0
 
     constructor(prop: Partial<EchartsDataItem>) {
-        extend(this, prop)
+        _.extend(this, prop)
     }
 
     toEchartsListData() {
