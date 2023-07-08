@@ -2,7 +2,9 @@
 
 ## 安装
 1. 安装油猴插件
-2. 点击安装此脚本：[elevenvr-candlestick.user.js](https://github.com/shijianjs/elevenvr-candlestick/raw/master/dist/elevenvr-candlestick.user.js)
+    - [edge 篡改猴 (Tampermonkey) ](https://microsoftedge.microsoft.com/addons/detail/%E7%AF%A1%E6%94%B9%E7%8C%B4/iikmkjmpaadaobahmlepeloendndfphd)
+    - [chrome 篡改猴 (Tampermonkey) ](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+3. 点击安装此脚本：[elevenvr-candlestick.user.js](https://github.com/shijianjs/elevenvr-candlestick/raw/master/dist/elevenvr-candlestick.user.js)
 
 ## 技术
 
