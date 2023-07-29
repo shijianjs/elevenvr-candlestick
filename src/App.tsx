@@ -7,6 +7,7 @@ import axios from "axios";
 import _, {extend} from "lodash";
 import ReactECharts from 'echarts-for-react';
 import {createEchartsCandleOption} from "./echarts-candle";
+import {EChartsOption} from "echarts";
 
 /**
  * EloHistoryItem 数据示例
@@ -141,7 +142,7 @@ class AppState {
         this.fetch()
     }
 
-    getOption() {
+    getOption():EChartsOption {
         return createEchartsCandleOption(this.toEchartsListData() as any);
     }
 }

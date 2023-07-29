@@ -1,4 +1,5 @@
 import {green, red} from "@ant-design/colors";
+import {EChartsOption} from "echarts";
 
 const upColor = red.primary;
 const downColor = green.primary;
@@ -36,7 +37,7 @@ function calculateMA(dayCount: number, data: { values: number[][] }) {
     return result;
 }
 
-export function createEchartsCandleOption(rawData: number[][]) {
+export function createEchartsCandleOption(rawData: number[][]):EChartsOption {
     var data = splitData(rawData);
 
     return  {
